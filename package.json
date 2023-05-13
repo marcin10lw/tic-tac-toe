@@ -3,13 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://marcin10lw.github.io/tic-tac-toe/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
