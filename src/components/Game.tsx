@@ -17,8 +17,6 @@ const Game = () => {
     setXIsNext((xIsNext) => !xIsNext);
   };
 
-  const jumpTo = () => {};
-
   const startNewGame = () => (
     <button
       className="text my-2 w-full rounded-md bg-pink-400 p-2 text-xl font-bold tracking-wide text-white hover:opacity-80"
