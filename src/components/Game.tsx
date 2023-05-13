@@ -32,7 +32,7 @@ const Game = () => {
     <section>
       <Board squares={board} handleClick={handleClick} />
       <div>
-        <p className="text my-2 rounded-md p-2 text-center text-xl font-semibold tracking-wide text-black hover:opacity-80">
+        <p className="text my-2 rounded-md p-2 text-center text-2xl font-semibold tracking-wide text-white">
           {winner
             ? `Winner is: ${winner}`
             : `Next Player: ${xIsNext ? "X" : "O"}`}
