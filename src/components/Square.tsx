@@ -1,5 +1,5 @@
 type SquareProps = {
-  value: string;
+  value: null | string;
   onClick: React.MouseEventHandler<HTMLButtonElement>;
 };
 
