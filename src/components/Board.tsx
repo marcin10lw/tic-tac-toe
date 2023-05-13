@@ -8,7 +8,7 @@ type BoardProps = {
 
 const Board = ({ squares, handleClick }: BoardProps) => {
   return (
-    <div className="inline-grid grid-cols-3 grid-rows-3 border-2 border-teal-500">
+    <div className="inline-grid grid-cols-3 grid-rows-3 rounded-sm border-2 border-teal-500">
       {squares.map((square, index) => (
         <Square
           key={index}

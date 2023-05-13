@@ -19,20 +19,25 @@ const Game = () => {
 
   const jumpTo = () => {};
 
-  const renderMoves = () => (
-    <button onClick={() => setBoard(Array(9).fill(null))}>Start Game</button>
+  const startNewGame = () => (
+    <button
+      className="text my-2 w-full rounded-md bg-pink-400 p-2 text-xl font-bold tracking-wide text-white hover:opacity-80"
+      onClick={() => setBoard(Array(9).fill(null))}
+    >
+      New Game
+    </button>
   );
 
   return (
     <section>
       <Board squares={board} handleClick={handleClick} />
       <div>
-        <p>
+        <p className="text my-2 rounded-md p-2 text-center text-xl font-semibold tracking-wide text-black hover:opacity-80">
           {winner
             ? `Winner is: ${winner}`
             : `Next Player: ${xIsNext ? "X" : "O"}`}
         </p>
-        {renderMoves()}
+        {startNewGame()}
       </div>
     </section>
   );
