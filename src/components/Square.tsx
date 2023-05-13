@@ -4,7 +4,14 @@ type SquareProps = {
 };
 
 const Square = ({ onClick, value }: SquareProps) => {
-  return <button onClick={onClick}>{value}</button>;
+  return (
+    <button
+      className="h-16 w-16 border-2 border-teal-600 bg-pink-400 text-xl text-white hover:opacity-70"
+      onClick={onClick}
+    >
+      {value}
+    </button>
+  );
 };
 
 export default Square;
