@@ -25,7 +25,7 @@ To run this project on your local machine, please follow these steps:
 1. Clone the repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/<your-username>/tic-tac-toe-react-vite.git
+   git clone https://github.com/marcin10lw/tic-tac-toe
    ```
 
 2. Navigate to the project directory:
