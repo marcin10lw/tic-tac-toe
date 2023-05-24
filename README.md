@@ -4,7 +4,7 @@
 
 This is a simple implementation of the classic game Tic Tac Toe built with React and Vite. The game consists of a 3x3 grid where two players take turns marking their symbol (X or O) in an attempt to get three in a row.
 
-## Check out the [DEMO](https://marcin10lw.github.io/tic-tac-toe/) 👈
+## Live Site URL: [marcin10lw.github.io/tic-tac-toe](https://marcin10lw.github.io/tic-tac-toe/) 👈
 
 # 💻 Project Tech Stack:
 
